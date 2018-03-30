@@ -5,11 +5,10 @@
 
 namespace Apigator\httpClient;
 
-use pcc\ApigatorBundle\Exception\NullHeadersApigatorException;
-use pcc\ApigatorBundle\Exception\NullMethodApigatorException;
-use pcc\ApigatorBundle\Exception\NullPayloadApigatorException;
-use pcc\ApigatorBundle\Exception\NullUriApigatorException;
-use Symfony\Component\Config\Definition\Exception\Exception;
+use Apigator\Exception\NullHeadersApigatorException;
+use Apigator\Exception\NullMethodApigatorException;
+use Apigator\Exception\NullPayloadApigatorException;
+use Apigator\Exception\NullUriApigatorException;
 
 /**
      * Crea una Conexión con "curl.php" a una API REST, tras ello pone a
