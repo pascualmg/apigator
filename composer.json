@@ -1,0 +1,38 @@
+{
+  "name": "pascualmg/apigator",
+  "description": "Symfony Service Request/Response API REST CURL client",
+  "authors": [
+    {
+      "name": "Pascual Muñoz Galián",
+      "email": "pascual.munoz@pccomponentes.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "pascualmg": "./"
+    },
+    "classmap": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    },
+    "files": [
+    ]
+  },
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+  },
+  "scripts": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+  }
+}
