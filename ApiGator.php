@@ -3,7 +3,7 @@
  *
  */
 
-namespace pascualmg;
+namespace apigator;
 
 use pcc\ApigatorBundle\Exception\NullHeadersApigatorException;
 use pcc\ApigatorBundle\Exception\NullMethodApigatorException;
