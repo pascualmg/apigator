@@ -3,7 +3,7 @@
  *
  */
 
-namespace httpClient;
+namespace Apigator\httpClient;
 
 use pcc\ApigatorBundle\Exception\NullHeadersApigatorException;
 use pcc\ApigatorBundle\Exception\NullMethodApigatorException;
