@@ -11,7 +11,7 @@
   "type": "project",
   "autoload": {
     "psr-4": {
-      "pascualmg\": "src"
+      "pascualmg\\": "src"
     },
     "classmap": [
     ]
