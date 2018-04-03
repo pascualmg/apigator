@@ -317,7 +317,7 @@ use Apigator\Exception\NullUriApigatorException;
                 }
             } else {
                 //todo:quitar echo
-                Echo "El Resource de Curl no existe!! así que no hay nada que cerrar";
+                echo "El Resource de Curl no existe!! así que no hay nada que cerrar";
             }
         }
 
@@ -334,8 +334,7 @@ use Apigator\Exception\NullUriApigatorException;
          *
          * 		return new Response(dump($arr));
          * 	};
-         * @param closure $f Donde $f es una función que se encarga de procesar
-         * el json como el pamametro que recibe.
+         * @param closure $f Donde $f es una función que se encarga de procesar el json como el pamametro que recibe.
          */
         public function procesaResponseCon($f = 'print_r') {
             $f($this->getCurlResponse());
