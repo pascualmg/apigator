@@ -37,6 +37,10 @@ use Apigator\Exception\NullUriApigatorException;
         public function __construct($uri = null , $httpHeaders = null, $method = null) {
 
 
+            if (!function_exists('curl_init')){
+                $this->errorYouHaveToInstallCurl();
+
+            }
             if(null === $uri)
             {
                 /**
@@ -335,6 +339,11 @@ use Apigator\Exception\NullUriApigatorException;
          */
         public function procesaResponseCon($f = 'print_r') {
             $f($this->getCurlResponse());
+        }
+
+        private function errorYouHaveToInstallCurl()
+        {
+            //todo: usage
         }
 
     }

@@ -9,7 +9,13 @@
 namespace Apigator\Exception;
 
 
+use Throwable;
+
 class NullUriApigatorException extends \Exception
 {
+    public function __construct($message = "we need a URI!", $code = 0, Throwable $previous = null)
+    {
+        parent::__construct($message, $code, $previous);
+    }
 
 }
